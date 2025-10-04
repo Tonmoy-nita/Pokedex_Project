@@ -1,13 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-import Pokedex from "./components/Pokedex/Pokedex";
+import CustomRoutes from "./routes/Customroutes";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Pokedex />
+      <CustomRoutes />
     </>
   );
 }
